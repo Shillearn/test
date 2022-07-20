@@ -4,4 +4,4 @@ def arrayCheck(nums):
 	else:
 		return false
 	
-arrayCheck([1,2,3,7,8])
+arrayCheck([1,2,3,7,8,333])
