@@ -1,0 +1,19 @@
+Set username
+$ git config --global user.name "you name"
+
+Check Git username
+$ git config --global user.name
+
+Create PAT- Personal authorization token.
+Settings->Developer settings->Personal access token, Generate token
+Copy and git clone giveurl(https:/...git) 
+Username :
+Password: paste token here
+
+When you want to change the username and pass for git :
+Go to: Control Panel -> User Accounts -> Manage your credentials -> Windows Credentials
+
+Under Generic Credentials there are some credentials related to Github,
+Click on them and click "Remove".
+
+Then add by git config user.name 
